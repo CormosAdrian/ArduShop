@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTests" verbose="1">
+
+<test name="AddToCart">
+    <classes>
+        <class name="com.ArduShop.Tests.AddProductToCartTest"/>
+    </classes>
+</test>
+
+
+    <test name="LanguageTest">
+        <classes>
+            <class name="com.ArduShop.Tests.LanguageTest"/>
+        </classes>
+    </test>
+
+    <test name="LoginTest">
+        <classes>
+            <class name="com.ArduShop.Tests.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="RemoveProductTest">
+        <classes>
+            <class name="com.ArduShop.Tests.RemoveFromCartTest"/>
+        </classes>
+    </test>
+
+    <test name="WishListCart">
+        <classes>
+            <class name="com.ArduShop.Tests.WishListCartTest"/>
+        </classes>
+    </test>
+
+    <test name="WishListMessage">
+        <classes>
+            <class name="com.ArduShop.Tests.WishListMessageTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>

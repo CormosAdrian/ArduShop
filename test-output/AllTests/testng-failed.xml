@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginPage(failed)">
+    <classes>
+      <class name="com.ArduShop.Pages.WebTest">
+        <methods>
+          <include name="DeleteProductFromMyCart"/>
+          <include name="CheckTheWishList"/>
+          <include name="MessageWishList"/>
+          <include name="LoginPage"/>
+        </methods>
+      </class> <!-- com.ArduShop.Pages.WebTest -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

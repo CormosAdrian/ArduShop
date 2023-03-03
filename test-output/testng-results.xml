@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T16:10:57 EET" name="AllTests" finished-at="2023-03-03T16:12:46 EET" duration-ms="108495">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T16:10:57 EET" name="AddToCart" finished-at="2023-03-03T16:11:23 EET" duration-ms="25713">
+      <class name="com.ArduShop.Tests.AddProductToCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.AddProductToCartTest@3745e5c6]" started-at="2023-03-03T16:10:58 EET" name="setUp" finished-at="2023-03-03T16:10:58 EET" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddProductToCart()[pri:0, instance:com.ArduShop.Tests.AddProductToCartTest@3745e5c6]" started-at="2023-03-03T16:10:58 EET" name="AddProductToCart" finished-at="2023-03-03T16:11:23 EET" duration-ms="25225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.AddProductToCartTest@3745e5c6]" started-at="2023-03-03T16:11:23 EET" name="tearDown" finished-at="2023-03-03T16:11:23 EET" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.AddProductToCartTest -->
+    </test> <!-- AddToCart -->
+    <test started-at="2023-03-03T16:11:23 EET" name="LanguageTest" finished-at="2023-03-03T16:11:33 EET" duration-ms="9307">
+      <class name="com.ArduShop.Tests.LanguageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.LanguageTest@18ce0030]" started-at="2023-03-03T16:11:23 EET" name="setUp" finished-at="2023-03-03T16:11:23 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckLanguage()[pri:0, instance:com.ArduShop.Tests.LanguageTest@18ce0030]" started-at="2023-03-03T16:11:23 EET" name="CheckLanguage" finished-at="2023-03-03T16:11:32 EET" duration-ms="9055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckLanguage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.LanguageTest@18ce0030]" started-at="2023-03-03T16:11:32 EET" name="tearDown" finished-at="2023-03-03T16:11:33 EET" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.LanguageTest -->
+    </test> <!-- LanguageTest -->
+    <test started-at="2023-03-03T16:11:33 EET" name="LoginTest" finished-at="2023-03-03T16:11:43 EET" duration-ms="10891">
+      <class name="com.ArduShop.Tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.LoginTest@6b26e945]" started-at="2023-03-03T16:11:33 EET" name="setUp" finished-at="2023-03-03T16:11:33 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LoginPage()[pri:0, instance:com.ArduShop.Tests.LoginTest@6b26e945]" started-at="2023-03-03T16:11:33 EET" name="LoginPage" finished-at="2023-03-03T16:11:43 EET" duration-ms="10579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.LoginTest@6b26e945]" started-at="2023-03-03T16:11:43 EET" name="tearDown" finished-at="2023-03-03T16:11:43 EET" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.LoginTest -->
+    </test> <!-- LoginTest -->
+    <test started-at="2023-03-03T16:11:43 EET" name="RemoveProductTest" finished-at="2023-03-03T16:12:11 EET" duration-ms="27616">
+      <class name="com.ArduShop.Tests.RemoveFromCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.RemoveFromCartTest@43301423]" started-at="2023-03-03T16:11:43 EET" name="setUp" finished-at="2023-03-03T16:11:43 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteProductFromMyCart()[pri:0, instance:com.ArduShop.Tests.RemoveFromCartTest@43301423]" started-at="2023-03-03T16:11:43 EET" name="DeleteProductFromMyCart" finished-at="2023-03-03T16:12:11 EET" duration-ms="27280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProductFromMyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.RemoveFromCartTest@43301423]" started-at="2023-03-03T16:12:11 EET" name="tearDown" finished-at="2023-03-03T16:12:11 EET" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.RemoveFromCartTest -->
+    </test> <!-- RemoveProductTest -->
+    <test started-at="2023-03-03T16:12:11 EET" name="WishListCart" finished-at="2023-03-03T16:12:29 EET" duration-ms="17999">
+      <class name="com.ArduShop.Tests.WishListCartTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.WishListCartTest@163e4e87]" started-at="2023-03-03T16:12:11 EET" name="setUp" finished-at="2023-03-03T16:12:11 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="CheckTheWishList()[pri:0, instance:com.ArduShop.Tests.WishListCartTest@163e4e87]" started-at="2023-03-03T16:12:11 EET" name="CheckTheWishList" finished-at="2023-03-03T16:12:29 EET" duration-ms="17713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTheWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.WishListCartTest@163e4e87]" started-at="2023-03-03T16:12:29 EET" name="tearDown" finished-at="2023-03-03T16:12:29 EET" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.WishListCartTest -->
+    </test> <!-- WishListCart -->
+    <test started-at="2023-03-03T16:12:29 EET" name="WishListMessage" finished-at="2023-03-03T16:12:46 EET" duration-ms="16860">
+      <class name="com.ArduShop.Tests.WishListMessageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ArduShop.Tests.WishListMessageTest@6193932a]" started-at="2023-03-03T16:12:29 EET" name="setUp" finished-at="2023-03-03T16:12:29 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="MessageWishList()[pri:0, instance:com.ArduShop.Tests.WishListMessageTest@6193932a]" started-at="2023-03-03T16:12:29 EET" name="MessageWishList" finished-at="2023-03-03T16:12:46 EET" duration-ms="16515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MessageWishList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ArduShop.Tests.WishListMessageTest@6193932a]" started-at="2023-03-03T16:12:46 EET" name="tearDown" finished-at="2023-03-03T16:12:46 EET" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ArduShop.Tests.WishListMessageTest -->
+    </test> <!-- WishListMessage -->
+  </suite> <!-- AllTests -->
+</testng-results>
