@@ -5,20 +5,21 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static com.ArduShop.Pages.LoginAndSerchPage.LOGIN_URL;
+import static com.ArduShop.Pages.BasePage.BASE_URL;
+
 
 public class WishListMessageTest extends BaseTests {
 
     @Test(testName = "Wish List message")
     public static void MessageWishList() throws InterruptedException {
         driver = new ChromeDriver();
-        driver.get(LOGIN_URL);
-        WishListCartMessage webForm=new WishListCartMessage(driver);
+        driver.get(BASE_URL);
+        WishListCartMessage wishListCartMessage=new WishListCartMessage(driver);
         NavigateToFirstPage();
         NavigateToSecondPage();
-        webForm.wishListButton();
+        wishListCartMessage.wishListButton();
         waitFor(1000);
-        Assert.assertTrue(webForm.wishListMessageIsDisplayed(),"Mesajul nu a fost afisat!");
-        webForm.closeButton();
+        Assert.assertTrue(wishListCartMessage.wishListMessageIsDisplayed(),"Mesajul nu a fost afisat!");
+        wishListCartMessage.closeButton();
     }
 }

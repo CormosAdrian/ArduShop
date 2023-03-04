@@ -46,10 +46,10 @@ public class BaseTests {
     public static void WishListCartPage()   {
         NavigateToFirstPage();
         NavigateToSecondPage();
-        WishListCartMessage webForm=new WishListCartMessage(driver);
-        webForm.wishListButton();
+        WishListCartMessage webWishCart=new WishListCartMessage(driver);
+        webWishCart.wishListButton();
         waitFor(500);
-        webForm.closeButton();
+        webWishCart.closeButton();
     }
 
 

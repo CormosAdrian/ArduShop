@@ -8,7 +8,6 @@ import org.openqa.selenium.support.FindBy;
 import javax.security.auth.kerberos.KerberosKey;
 
 public class LoginAndSerchPage extends BasePage {
-    public final static String LOGIN_URL = BASE_URL;
 
     private final String EMAIL = "cormos.adrian@yahoo.com";
     private final String PASSWORD = "RzF0/tI0";

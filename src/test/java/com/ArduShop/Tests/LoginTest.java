@@ -8,7 +8,8 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
-import static com.ArduShop.Pages.LoginAndSerchPage.LOGIN_URL;
+import static com.ArduShop.Pages.BasePage.BASE_URL;
+
 
 public class LoginTest extends BaseTests{
 
@@ -17,14 +18,14 @@ public class LoginTest extends BaseTests{
     @Test(testName = "Login page")
     public static void LoginPage() {
         driver = new ChromeDriver();
-       driver.get(LOGIN_URL);
+       driver.get(BASE_URL);
 
-        LoginAndSerchPage webForm = new LoginAndSerchPage(driver);
-        webForm.loginSerch();
-        webForm.EmailField();
-        webForm.passwordField();
-        webForm.loginSubmit();
-        Assert.assertTrue(webForm.alertaLogin(), "Nu ai reusit sa te loghezi!");
+        LoginAndSerchPage loginAndSerchPage = new LoginAndSerchPage(driver);
+        loginAndSerchPage.loginSerch();
+        loginAndSerchPage.EmailField();
+        loginAndSerchPage.passwordField();
+        loginAndSerchPage.loginSubmit();
+        Assert.assertTrue(loginAndSerchPage.alertaLogin(), "Nu ai reusit sa te loghezi!");
     }
 }
 
