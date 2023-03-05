@@ -1,7 +1,6 @@
 package com.ArduShop.Tests;
 
-import com.ArduShop.Pages.BasePage;
-import com.ArduShop.Pages.LoginAndSerchPage;
+
 import com.ArduShop.Pages.SelectLanguage;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -27,6 +26,5 @@ public class LanguageTest extends BaseTests {
         waitFor(500);
         selectLanguage.RoumanianLanguage();
         Assert.assertTrue(selectLanguage.EnglishOrRomanianMenu("Cele mai cautate"),"Meniul nu este in limba Romana!");
-
     }
 }

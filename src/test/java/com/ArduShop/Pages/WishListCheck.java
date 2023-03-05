@@ -18,11 +18,6 @@ public class WishListCheck extends BasePage {
 
 
 
-
-
-
-
-
     public WishListCheck(WebDriver driver) {
         super(driver);
     }

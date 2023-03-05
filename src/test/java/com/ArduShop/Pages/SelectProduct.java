@@ -19,7 +19,6 @@ public class SelectProduct extends BasePage {
         super(driver);
     }
 
-
     public void searchProduct(String search) {
         searchBar.sendKeys(search);
         searchBar.sendKeys(Keys.ENTER);

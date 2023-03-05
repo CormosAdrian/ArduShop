@@ -5,15 +5,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static com.ArduShop.Pages.BasePage.BASE_URL;
 
 
 public class WishListMessageTest extends BaseTests {
 
     @Test(testName = "Wish List message")
-    public static void MessageWishList() throws InterruptedException {
+    public static void MessageWishList()  {
         driver = new ChromeDriver();
-        driver.get(BASE_URL);
         WishListCartMessage wishListCartMessage=new WishListCartMessage(driver);
         NavigateToFirstPage();
         NavigateToSecondPage();

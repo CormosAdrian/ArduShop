@@ -52,7 +52,6 @@ public class BaseTests {
         webWishCart.closeButton();
     }
 
-
     @AfterMethod
     protected void tearDown(){
         driver.manage().deleteAllCookies();
