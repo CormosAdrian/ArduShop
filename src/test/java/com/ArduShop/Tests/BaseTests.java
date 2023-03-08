@@ -24,16 +24,22 @@ public class BaseTests {
 
         driver.get(BasePage.BASE_URL);
         LoginAndSerchPage webForm = new LoginAndSerchPage(driver);
+        waitFor(4000);
         webForm.loginSerch();
+        waitFor(4000);
         webForm.EmailField();
         webForm.passwordField();
+        waitFor(4000);
         webForm.loginSubmit();
+        waitFor(4000);
     }
     public static void NavigateToSecondPage()  {
         SelectProduct webSelectProduct=new SelectProduct(driver);
-        waitFor(500);
+        waitFor(4000);
         webSelectProduct.searchProduct("Ramps 1.5");
+        waitFor(4000);
         webSelectProduct. sortareAscendent();
+        waitFor(4000);
     }
     public static void NavigateToThirdPage()  {
         ShopProduct webShopProduct=new ShopProduct(driver);

@@ -7,7 +7,7 @@ public class BasePage {
 
     protected WebDriver driver;
 
-    final static String CHROME_DRIVER_LOCATION = "chromedriver";
+    //final static String CHROME_DRIVER_LOCATION = "chromedriver";
 
    public final static String BASE_URL = "https://ardushop.ro/ro/";
 

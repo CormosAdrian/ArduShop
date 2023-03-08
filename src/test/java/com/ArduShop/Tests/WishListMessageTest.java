@@ -14,9 +14,11 @@ public class WishListMessageTest extends BaseTests {
         driver = new ChromeDriver();
         WishListCartMessage wishListCartMessage=new WishListCartMessage(driver);
         NavigateToFirstPage();
+        waitFor(4000);
         NavigateToSecondPage();
+        waitFor(4000);
         wishListCartMessage.wishListButton();
-        waitFor(1000);
+        waitFor(5000);
         Assert.assertTrue(wishListCartMessage.wishListMessageIsDisplayed(),"Mesajul nu a fost afisat!");
         wishListCartMessage.closeButton();
     }
