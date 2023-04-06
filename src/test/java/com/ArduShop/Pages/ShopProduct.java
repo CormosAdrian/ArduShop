@@ -5,8 +5,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class ShopProduct extends BasePage{
+
+
+
     @FindBy(xpath = "//*[@id=\"center_column\"]/ul/li[1]/div/div[2]/div[2]/a[1]/span")
-    WebElement adaugaInCos;
+   public WebElement adaugaInCos;
 
     @FindBy(xpath = "//*[@id=\'layer_cart\']/div[1]/div[2]/div[5]/a/span")
 

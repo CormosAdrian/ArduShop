@@ -11,7 +11,10 @@ public class AddProductToCartTest extends BaseTests{
 
     @Test(testName = "Add to cart")
     public static void AddProductToCart()  {
-        driver = new ChromeDriver();
+
+
+        //driver =new FirefoxDriver();
+       driver = new ChromeDriver();
 
         NavigateToFirstPage();
         NavigateToSecondPage();
